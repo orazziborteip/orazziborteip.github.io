@@ -1,79 +1,86 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Pietro Giovanni Bizzaro</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pietro Giovanni Bizzaro - lifelong learner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Pietro Giovanni Bizzaro</h1>
+            <p class="tagline">lifelong learner</p>
+        </header>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+        <!-- Bio -->
+        <section class="quotes">
+            <blockquote>
+                <p>Short bio</p>
+            </blockquote>
+            <blockquote>
+                <p>I am a researcher at FBK’s Digital Commons Lab in Trento and a PhD student at the University of Trento. With a law degree from Bocconi, I work on making AI and data rules fair and practical.</p>
+            </blockquote>
+            </blockquote>
+                <p>I aim to help entities handle data protection and govenrance, researching how tech can follow the law without slowing down innovation.</p>          
+        </section>
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
-  
-  <body>
+        <!-- Bookshelf Section -->
+        <section class="bookshelf">
+            <h2>Bookshelf</h2>
+            <div class="book-list">
+                <p><a href="link-to-book-or-paper">Title of Book/Paper (Year)</a></p>
+                <p><a href="link-to-book-or-paper">Another Title (Year)</a></p>
+                <p><a href="link-to-book-or-paper">Classic Paper Title (Year)</a></p>
+            </div>
+        </section>
 
-    <header id="header">
-      <img src="logo.png">
-      <h1>Simple Website</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
-        </div>
-      </div>
+        <!-- Work/Publications Section -->
+        <section class="publications">
+            <h2>Research & Publications</h2>
+            <div class="links">
+                <!--<a href="https://github.com/yourusername">GitHub</a>| -->
+                <a href="https://scholar.google.com/citations?hl=en&user=_FbCnLwAAAAJ">Google Scholar</a> | 
+                <a href="https://semanticscholar.org/yourprofile">Semantic Scholar</a>
+            </div>
+
+            <div class="paper">
+                <h3>The false promise of individual digital sovereignty in Europe: Comparing artificial intelligence and data regulations in China and the European Union</h3>
+                <p class="venue">Policy & Internet 2024</p>
+                <p class="authors">Riccardo Nanni, Pietro Giovanni Bizzaro, Maurizio Napolitano</p>
+                <div class="paper-links">
+                    <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/poi3.424">paper link</a>
+                </div>
+            </div>
+
+           <div class="paper">
+                <h3>Annotation and classification of relevant clauses in terms-and-conditions contracts</h3>
+                <p class="venue">Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</p>
+                <p class="authors">Pietro Giovanni Bizzaro, Elena Della Valentina, Maurizio Napolitano, Nadia Mana, Massimo Zancanaro</p>
+                <div class="paper-links">
+                    <a href="https://aclanthology.org/2024.lrec-main.108/">paper link</a>
+                </div>
+            </div>
+
+            <div class="paper">
+                <h3>A canvas to design and deploy ethical artificial intelligence for public administrations. The experience of the Autonomous Province of Trento, Italy</h3>
+                <p class="venue">SSRN 2024 (preprint)</p>
+                <p class="authors">Pietro Giovanni Bizzaro, Riccardo Nanni, Maurizio Napolitano</p>
+                <div class="paper-links">
+                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4819535">paper link</a>
+                </div>
+              </div>
+
+              <!--<div class="paper">
+                <h3>Another Paper Title</h3>
+                <p class="venue">Conference/Journal</p>
+                <p class="authors">Authors list</p>
+                <div class="paper-links">
+                    <a href="https://aclanthology.org/2024.lrec-main.108/">paper link</a>
+                </div> -->
+            </div>
+        </section>
     </div>
-
-    <footer>  
-      Footer region
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+</body>
 </html>
